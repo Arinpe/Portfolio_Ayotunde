@@ -24,6 +24,7 @@
 
     <div class="hero">
       <div class="hero-content">
+       <div class="hero_text">
         <h1>Hello</h1>
         <h2>I'm <span>Ayotunde Samson.</span></h2>
         <p>
@@ -34,9 +35,13 @@
           thoughtful design.
         </p>
         <a href="#learn-more" class="cta-button">HIRE ME</a>
+       </div>
+        
       </div>
-      <img src="img/hero_image.png" alt="" />
+     <div class="hero_img"> <img src="img/hero_image.png" alt="" /></div>
     </div>
+
+    <!-- about -->
 
     <div id="about">
       <div class="about-content">
@@ -111,5 +116,109 @@
           </div>
         </div>
       </div>
-  </body>
+
+      <!-- skills -->
+
+      <div id="skills">
+        <h2>SKILLS</h2>
+        <div class="skill">
+            <div class="skill-name">UI/UX DESIGN</div>
+            <div class="skill-bar" style="width: 80%;"></div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">BRANDING</div>
+            <div class="skill-bar" style="width: 65%;"></div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">GRAPHIC DESIGN</div>
+            <div class="skill-bar" style="width: 70%;"></div>
+        </div>
+    </div>
+
+    <!-- PORTFOLIO -->
+
+    <div id="portfolio">
+        <h2>PORTFOLIO</h2>
+        
+        <div class="project">
+            <img src="img/p1.png" alt="Project 1">
+            <h3>Project 1</h3>
+            <p>Description of Project 1 goes here.</p>
+        </div>
+    
+        <div class="project">
+            <img src="img/p2.png" alt="Project 2">
+            <h3>Project 2</h3>
+            <p>Description of Project 2 goes here.</p>
+        </div>
+
+        <div class="project">
+            <img src="img/p3.png" alt="Project 2">
+            <h3>Project 2</h3>
+            <p>Description of Project 2 goes here.</p>
+        </div>
+
+        <div class="project">
+            <img src="img/p4.png" alt="Project 2">
+            <h3>Project 2</h3>
+            <p>Description of Project 2 goes here.</p>
+        </div>
+
+        <div class="project">
+            <img src="img/p5.png" alt="Project 2">
+            <h3>Project 2</h3>
+            <p>Description of Project 2 goes here.</p>
+        </div>
+    </div>
+    
+
+    <!-- contacts -->
+    <div id="contact">
+    <h2>CONTACT</h2>
+    <div class="contact-form">
+        <form id="contactForm">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="15" required></textarea>
+
+            <button type="button" onclick="submitForm()">SUBMIT</button>
+        </form>
+    </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <img src="img/logo.png" alt="">
+                <h5>Ayotunde Samson.</h5>
+                <p>I bring a unique blend of creativity, technical 
+                    proficiency, and a commitment to delivering 
+                    exceptional user experiences. Let's collaborate 
+                    to transform your ideas into visually stunning 
+                    and user-friendly digital solutions.</p>
+            </div>
+    
+            <div class="footer-section links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+    
+        </div>
+    
+        <div class="footer-bottom">
+            &copy; 2023. All Rights Reserved
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
 </html>
