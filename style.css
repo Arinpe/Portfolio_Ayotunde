@@ -209,28 +209,38 @@ body {
 
 /* skills */
 
-.skills {
-    padding: 50px;
-    text-align: center;
+#skills {
+    padding: 60px
 }
 
-.skills h2 {
-    font-size: 2.5em;
-    margin-bottom: 30px;
+#skills h2 {
+    color: #232230;
+    font-family: Nunito;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    padding-left: 30rem
 }
 
-.skill {
+/* .skill {
     margin-bottom: 20px;
-}
+    text-align: center;
+} */
 
 .skill-name {
-    font-size: 1.5em;
-    margin-bottom: 5px;
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 5rem;
+    padding-left: 1rem;
 }
 
 .skill-bar {
     height: 20px;
-    background-color: #3498db;
+    background-color: #0DBF81;
     border-radius: 5px;
 }
 
