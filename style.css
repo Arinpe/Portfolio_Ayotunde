@@ -82,7 +82,7 @@ body {
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
-    font-size: 1.2em;
+    font-size: 15px;
     text-decoration: none;
     color: #fff;
     background-color: #0DBF81;
@@ -91,26 +91,52 @@ body {
 }
 
 .cta-button:hover {
-    background-color: #2980b9;
+    background-color: #0DBF81;
+    
 }
 
 /* about */
 
-.about {
-    padding: 50px;
+    /* #about {
+        padding: 50px;
+    } */
+
+#about h2 {
+    padding-left: 40rem;
+}
+
+#about span {
+    color: #0DBF81;
+    font-size: 25px;
 }
 
 .about-content {
     max-width: 800px;
     margin: 0 auto;
+    display: flex;
 }
 
-.about h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
+.about_details {
+    padding-left: 5rem; 
+    line-height: 2rem;
 }
 
-.about p {
+.about_img {
+    width: 271px;
+    height: 405px;
+    flex-shrink: 0;
+}
+
+#about h2 {
+    color: #232230;
+    font-family: Nunito;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+#about p {
     font-size: 1.2em;
     line-height: 1.6;
     margin-bottom: 15px;
@@ -118,7 +144,7 @@ body {
 
 /* services */
 
-.services {
+#services {
     padding: 50px;
 }
 
