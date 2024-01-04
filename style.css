@@ -151,25 +151,60 @@ body {
 .services-content {
     max-width: 800px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 
-.services h2 {
-    font-size: 2.5em;
-    margin-bottom: 30px;
+#services h2 {
+    color: #232230;
+    font-family: Nunito;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    padding-left: 20rem
 }
 
-.service {
-    margin-bottom: 30px;
+.service_design,
+.service_ux,
+.service_graphics {
+    border: 6px solid #0DBF81;
+    margin:3rem 1.5rem;
+    padding: 1rem 1rem;
+    justify-content: space-between;
 }
 
-.service h3 {
+.service_design img {
+    padding-left: 2rem;
+}
+
+.service_ux img {
+    padding-left: 1.8rem;
+}
+
+.service_graphics img {
+    padding-left: 4rem;
+}
+
+#service h3 {
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal; 
     font-size: 1.8em;
     margin-bottom: 10px;
 }
 
-.service p {
-    font-size: 1.2em;
-    line-height: 1.6;
+#service p {
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 /* skills */
