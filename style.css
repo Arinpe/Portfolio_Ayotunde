@@ -9,7 +9,7 @@ body {
 
 /* navbar */
 
-.navbar {
+/* .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,8 +39,61 @@ body {
 .navbar a:hover {
     background-color: #0DBF81;
     color: black;
-} 
+}  */
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    margin-right: 20px;
+}
+
+.hamburger-menu {
+    display: none; 
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+}
+
+.nav-links ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    
+}
+
+.nav-links li {
+    margin-right: 1rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: #0DBF81;
+    color: black;
+}
 
 /* hero page */
 
@@ -570,8 +623,8 @@ h3 {
 
 .btn {
     padding: 10px 20px;
-    background-color: #3498db;
-    color: #fff;
+    background-color: #0DBF81;
+    color: #090B1A;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -582,31 +635,35 @@ h3 {
 }
 
 /* responsiveness */
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
+/* @media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
+    @media screen and (max-width: 768px) {
+        .nav-links {
+            display: none; 
+            flex-direction: column;
+            position: absolute;
+            top: 70px;
+            left: 0;
+            background-color: #0B0D21;
+            width: 100%;
+        }
+    
+        .nav-links.active {
+            display: flex; 
+            flex-direction: column;
+        }
+    
+        .hamburger-menu {
+            display: block;
+        }
+    } */
 
-    .logo-container {
-        margin-bottom: 1rem; /* Adjust spacing between logo and links on smaller screens */
-    }
-
-    .nav-links ul {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .nav-links li {
-        margin: 0;
-        margin-bottom: 0.5rem; /* Adjust spacing between links on smaller screens */
-    }
 
     /* hero section */
 
-    .hero {
+    /* .hero {
         display: flex;
-        flex-direction: column-reverse; /* Reverse the order for smaller screens */
+        flex-direction: column-reverse;
         align-items: center;
         text-align: center;
     }
@@ -617,8 +674,8 @@ h3 {
     }
     
     .hero_img img {
-        width: 100%; /* Make the image responsive */
-        max-width: 500px; /* Set a maximum width to prevent excessive stretching */
+        width: 100%; 
+        max-width: 500px;
     }
     
     .hero_text {
@@ -632,10 +689,7 @@ h3 {
     }
     
     .social-links a {
-        margin: 0 1rem; /* Adjust spacing between social icons */
-    }
-    
-    /* about session */
+        margin: 0 1rem; 
 
     #about {
         text-align: center;
@@ -654,10 +708,10 @@ h3 {
     }
     
     .about_img img {
-        width: 100%; /* Make the image responsive */
-        max-width: 300px; /* Set a maximum width to prevent excessive stretching */
-    }
-    
+        width: 100%;
+        max-width: 300px; 
+    } */
+/*     
     .about_details {
         max-width: 600px;
         margin-top: 20px;
@@ -699,11 +753,11 @@ h3 {
     
     .cta-button:hover {
         background-color: #0DBF81;
-    }
+    } */
 
     /* services session */
 
-    @media (max-width: 992px) {
+    /* @media (max-width: 992px) {
         .services-content {
             flex-wrap: wrap;
         }
@@ -711,21 +765,21 @@ h3 {
         .service_design,
         .service_ux,
         .service_graphics {
-            width: 48%; /* Adjust based on your design */
+            width: 48%; 
             margin-bottom: 20px;
         }
-    }
+    } */
     
-    @media (max-width: 768px) {
+    /* @media (max-width: 768px) {
         .service_design,
         .service_ux,
         .service_graphics {
             width: 100%;
         }
-    }
+    } */
     
     /* skills */
-
+/* 
     @media (max-width: 768px) {
         #skills h2 {
             padding-left: 0;
@@ -738,11 +792,11 @@ h3 {
             padding-left: 1px;
             font-size: 20px;
         }
-    }
+    } */
 
     /* portfolio */
 
-    @media (max-width: 768px) {
+    /* @media (max-width: 768px) {
         #portfolio h2 {
             color: #232230;
             font-family: Nunito;
@@ -750,59 +804,54 @@ h3 {
             font-style: normal;
             font-weight: 900;
             line-height: normal;
-            text-align: center; /* Center the text on smaller screens */
-            padding-left: 0; /* Remove left padding on smaller screens */
+            text-align: center; 
+            padding-left: 0; 
         }
         
         #portfolio img {
-            width: 100%; /* Make the image responsive */
+            width: 100%; 
             max-width: 100%;
             height: auto;
         }
         
         .project {
             display: flex;
-            flex-direction: column; /* Arrange projects in a column on smaller screens */
-            align-items: center; /* Center projects on smaller screens */
-            margin: 0 auto; /* Center the projects container */
-            max-width: 800px; /* Limit the width for better readability */
+            flex-direction: column; 
+            align-items: center; 
+            margin: 0 auto; 
         }
         
         .project_details {
             display: flex;
             flex-direction: column;
-            align-items: center; /* Center project details on smaller screens */
-            text-align: center; /* Center text on smaller screens */
+            align-items: center;
+            text-align: center; 
         }
         
         .project p,
         h3 {
-            padding-top: 10px; /* Adjust spacing between text elements */
+            padding-top: 10px; 
         }
         
         .all {
-            display: block; /* Make the "View All" link a block element for better responsiveness */
-            margin: 20px auto; /* Center the "View All" link */
+            display: block;
+            margin: 20px auto; 
         }
 
             .contact-form input,
             .contact-form textarea {
-                width: calc(100% - 20px); /* Adjust width for smaller screens with a bit of margin */
-            
-        }
+                width: calc(100% - 20px); 
+        } */
 
 
         /* footer */
 
-        .footer-content {
+        /* .footer-content {
             flex-direction: column;
             align-items: center;
         }
 
-        /* .footer-section.links.right {
-            display: flex;
-            justify-content: space-between;
-        } */
+       
     
         .footer-section {
             max-width: 100%;
@@ -813,5 +862,249 @@ h3 {
             margin-bottom: 40px;
         }
         
+    }
+}
+} */
+
+/* Common styles for larger screens */
+
+/* ... (existing styles) ... */
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    /* Navbar */
+    .nav-links {
+        display: none; 
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background-color: #0B0D21;
+        width: 100%;
+    }
+
+    .nav-links.active {
+        display: flex; 
+        flex-direction: column;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    .nav-links ul {
+        list-style-type: none;
+        display: flex;
+        margin: 0;
+        flex-direction: column;
+    }
+    
+    .nav-links li {
+        margin-right: 1rem;
+    }
+    
+    .nav-links a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    /* Hero Section */
+    .hero {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-content {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .hero_img img {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .hero_text {
+        padding: 4rem 0;
+    }
+
+    .social-links {
+        padding-top: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .social-links a {
+        margin: 0 1rem;
+    }
+
+    /* About Section */
+    #about {
+        text-align: center;
+        padding: 50px 0;
+    }
+
+    #about h2{
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .about-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about_img img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .about_details {
+        max-width: 600px;
+        margin-top: 20px;
+    }
+
+    .about_details span {
+        color: #0DBF81;
+        font-size: 20px;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .about_details p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .about_details ul {
+        text-align: left;
+        padding-left: 0;
+        list-style: none;
+        margin-bottom: 20px;
+    }
+
+    .about_details li {
+        margin-bottom: 8px;
+    }
+
+    .cta-button {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 15px;
+        text-decoration: none;
+        color: #fff;
+        background-color: #0DBF81;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    .cta-button:hover {
+        background-color: #0DBF81;
+    }
+
+    /* Services Section */
+    @media (max-width: 992px) {
+        .services-content {
+            flex-wrap: wrap;
+        }
+
+        .services h2 {
+            font-size: 30px;
+        }
+
+        .service_design,
+        .service_ux,
+        .service_graphics {
+            width: 48%;
+            margin-bottom: 20px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .service_design,
+        .service_ux,
+        .service_graphics {
+            width: 100%;
+        }
+    }
+
+    /* Skills Section */
+    #skills h2 {
+        padding-left: 0;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .skill-name {
+        text-align: left;
+        padding-left: 1px;
+        font-size: 20px;
+    }
+
+    /* Portfolio Section */
+    #portfolio h2 {
+        color: #232230;
+        font-family: Nunito;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    #portfolio img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .project {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 800px;
+    }
+
+    .project_details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .project p,
+    h3 {
+        padding-top: 10px;
+    }
+
+    .all {
+        display: block;
+        margin: 20px auto;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: calc(100% - 20px);
+    }
+
+    /* Footer */
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .footer-section:not(:last-child) {
+        margin-bottom: 40px;
     }
 }
