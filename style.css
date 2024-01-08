@@ -950,6 +950,7 @@ h3 {
     #about h2{
         padding-left: 0;
         text-align: center;
+        font-size: 30px;
     }
 
     .about-content {
@@ -1012,7 +1013,7 @@ h3 {
             flex-wrap: wrap;
         }
 
-        .services h2 {
+        #services h2 {
             font-size: 30px;
         }
 
@@ -1029,6 +1030,10 @@ h3 {
         .service_ux,
         .service_graphics {
             width: 100%;
+        }
+
+        #services h2 {
+            font-size: 30px;
         }
     }
 
