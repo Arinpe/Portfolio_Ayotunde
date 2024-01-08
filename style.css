@@ -69,7 +69,7 @@ body {
 .bar {
     width: 25px;
     height: 3px;
-    background-color: #fff;
+    background-color: #0DBF81;
     margin: 5px 0;
 }
 
@@ -890,6 +890,7 @@ h3 {
 
     .hamburger-menu {
         display: block;
+        color: #0DBF81;
     }
 
     .nav-links ul {
