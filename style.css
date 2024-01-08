@@ -931,6 +931,10 @@ h3 {
         padding: 4rem 0;
     }
 
+    .hero_text p {
+        font-size: 12px;
+    }
+
     .social-links {
         padding-top: 2rem;
         display: flex;
@@ -1015,6 +1019,7 @@ h3 {
 
         #services h2 {
             font-size: 30px;
+            text-align: center;
         }
 
         .service_design,
@@ -1034,6 +1039,7 @@ h3 {
 
         #services h2 {
             font-size: 30px;
+            text-align: center;
         }
     }
 
