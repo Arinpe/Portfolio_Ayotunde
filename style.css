@@ -10,38 +10,37 @@ body {
 /* navbar */
 
 .navbar {
-    /* opacity: 0.24; */
-    background: #090B1A;
     display: flex;
     justify-content: space-between;
-    margin-left: 5rem;
-    margin-right: 3rem;
-    margin-top: 1rem;
+    align-items: center;
+    padding: 1rem 2rem;
 }
 
-.navbar ul {
+.logo-container img {
+    height: 50px; 
+}
+
+.nav-links ul {
     list-style-type: none;
-    margin: 5px;
-    padding: 0;
-    overflow: hidden;
+    display: flex;
+    margin: 0;
 }
 
-.navbar li {
-    float: left;
+.nav-links li {
+    margin-right: 1rem;
 }
 
-.navbar a {
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
+.nav-links a {
     text-decoration: none;
     color: #fff;
+    font-weight: bold;
 }
 
 .navbar a:hover {
     background-color: #0DBF81;
     color: black;
-}
+} 
+
 
 /* hero page */
 
@@ -209,13 +208,6 @@ body {
     padding: 50px;
 }
 
-.services-content {
-    max-width: 800px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-}
-
 #services h2 {
     color: #232230;
     font-family: Nunito;
@@ -223,49 +215,46 @@ body {
     font-style: normal;
     font-weight: 900;
     line-height: normal;
-    padding-left: 30rem
+    text-align: center;
+}
+
+.services-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
 }
 
 .service_design,
 .service_ux,
 .service_graphics {
-    border: 6px solid #0DBF81;
-    margin:3rem 1.5rem;
-    padding: 1rem 1rem;
-    justify-content: space-between;
-}
-
-.service_design img {
-    padding-left: 2rem;
-}
-
-.service_ux img {
-    padding-left: 1.8rem;
-}
-
-.service_graphics img {
-    padding-left: 4rem;
-}
-
-#service h3 {
-    color: #FFF;
-    font-family: Nunito;
-    font-size: 21px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal; 
-    font-size: 1.8em;
-    margin-bottom: 10px;
-}
-
-#service p {
-    color: #FFF;
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
     text-align: center;
-    font-family: Nunito;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+}
+
+.service_design img,
+.service_ux img,
+.service_graphics img {
+    max-width: 100%;
+    height: auto;
+}
+
+.service_design h3,
+.service_ux h3,
+.service_graphics h3 {
+    color: #0DBF81;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.service_design p,
+.service_ux p,
+.service_graphics p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
 }
 
 /* skills */
@@ -364,6 +353,37 @@ h3 {
     margin-top: 5rem;
 }
 
+/* skills */
+
+#skills h2 {
+    color: #232230;
+    font-family: Nunito;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    padding-left: 30rem;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill-name {
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 5rem;
+}
+
+.skill-bar {
+    height: 20px;
+    background-color: #0DBF81;
+    border-radius: 5px;
+}
+
 /* contact */
 
 #contact h2 {
@@ -373,22 +393,12 @@ h3 {
     font-style: normal;
     font-weight: 900;
     line-height: normal;
-    padding-left: 30rem
+    text-align: center; /* Center the heading on smaller screens */
 }
-
-
-
-#contact p {
-    font-size: 1.2em;
-    line-height: 1.6;
-    margin-bottom: 30px;
-}
-
-
 
 .contact-form {
     max-width: 600px;
-    margin: 0 auto;
+    margin: 0 auto; /* Center the form on the page */
 }
 
 .contact-form form {
@@ -408,10 +418,12 @@ h3 {
     box-sizing: border-box;
     border-radius: 5px;
     background: #0B0D21;
-    
+    color: #fff;
+    border: 1px solid #0DBF81; /* Add border for better visibility */
 }
 
 .contact-form button {
+    width: 100%; /* Make the button full width on smaller screens */
     background-color: #0DBF81;
     color: white;
     padding: 10px 20px;
@@ -419,28 +431,7 @@ h3 {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-left: 15rem;
-    
-}
-
-.contact-form button:hover {
-    background-color: #0DBF81;
-}
-
-.contact-info {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.contact-info h3 {
-    font-size: 1.8em;
-    margin-bottom: 15px;
-}
-
-.contact-info p {
-    font-size: 1.2em;
-    line-height: 1.6;
-    margin-bottom: 10px;
+    margin-top: 10px; /* Add spacing between the form and the button */
 }
 
 /* footer */
@@ -511,7 +502,7 @@ h3 {
 .contacts_footer p {
     font-size: 1em;
     line-height: 1.6;
-    margin-top: 10px; /* Adjust spacing between the h2 and the paragraph */
+    margin-top: 10px; 
 }
 
 /* Responsive adjustments */
@@ -588,4 +579,239 @@ h3 {
 
 .btn-big {
     padding: 15px 30px;
+}
+
+/* responsiveness */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo-container {
+        margin-bottom: 1rem; /* Adjust spacing between logo and links on smaller screens */
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links li {
+        margin: 0;
+        margin-bottom: 0.5rem; /* Adjust spacing between links on smaller screens */
+    }
+
+    /* hero section */
+
+    .hero {
+        display: flex;
+        flex-direction: column-reverse; /* Reverse the order for smaller screens */
+        align-items: center;
+        text-align: center;
+    }
+    
+    .hero-content {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    .hero_img img {
+        width: 100%; /* Make the image responsive */
+        max-width: 500px; /* Set a maximum width to prevent excessive stretching */
+    }
+    
+    .hero_text {
+        padding: 4rem 0;
+    }
+    
+    .social-links {
+        padding-top: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .social-links a {
+        margin: 0 1rem; /* Adjust spacing between social icons */
+    }
+    
+    /* about session */
+
+    #about {
+        text-align: center;
+        padding: 50px 0;
+    }
+
+    #about h2{
+        padding-left: 0;
+        text-align: center;
+    }
+    
+    .about-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .about_img img {
+        width: 100%; /* Make the image responsive */
+        max-width: 300px; /* Set a maximum width to prevent excessive stretching */
+    }
+    
+    .about_details {
+        max-width: 600px;
+        margin-top: 20px;
+    }
+    
+    .about_details span {
+        color: #0DBF81;
+        font-size: 20px;
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    .about_details p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    
+    .about_details ul {
+        text-align: left;
+        padding-left: 0;
+        list-style: none;
+        margin-bottom: 20px;
+    }
+    
+    .about_details li {
+        margin-bottom: 8px;
+    }
+    
+    .cta-button {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 15px;
+        text-decoration: none;
+        color: #fff;
+        background-color: #0DBF81;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+    
+    .cta-button:hover {
+        background-color: #0DBF81;
+    }
+
+    /* services session */
+
+    @media (max-width: 992px) {
+        .services-content {
+            flex-wrap: wrap;
+        }
+    
+        .service_design,
+        .service_ux,
+        .service_graphics {
+            width: 48%; /* Adjust based on your design */
+            margin-bottom: 20px;
+        }
+    }
+    
+    @media (max-width: 768px) {
+        .service_design,
+        .service_ux,
+        .service_graphics {
+            width: 100%;
+        }
+    }
+    
+    /* skills */
+
+    @media (max-width: 768px) {
+        #skills h2 {
+            padding-left: 0;
+            text-align: center;
+
+        }
+    
+        .skill-name {
+            text-align: left;
+            padding-left: 1px;
+            font-size: 20px;
+        }
+    }
+
+    /* portfolio */
+
+    @media (max-width: 768px) {
+        #portfolio h2 {
+            color: #232230;
+            font-family: Nunito;
+            font-size: 62px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
+            text-align: center; /* Center the text on smaller screens */
+            padding-left: 0; /* Remove left padding on smaller screens */
+        }
+        
+        #portfolio img {
+            width: 100%; /* Make the image responsive */
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .project {
+            display: flex;
+            flex-direction: column; /* Arrange projects in a column on smaller screens */
+            align-items: center; /* Center projects on smaller screens */
+            margin: 0 auto; /* Center the projects container */
+            max-width: 800px; /* Limit the width for better readability */
+        }
+        
+        .project_details {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center project details on smaller screens */
+            text-align: center; /* Center text on smaller screens */
+        }
+        
+        .project p,
+        h3 {
+            padding-top: 10px; /* Adjust spacing between text elements */
+        }
+        
+        .all {
+            display: block; /* Make the "View All" link a block element for better responsiveness */
+            margin: 20px auto; /* Center the "View All" link */
+        }
+
+            .contact-form input,
+            .contact-form textarea {
+                width: calc(100% - 20px); /* Adjust width for smaller screens with a bit of margin */
+            
+        }
+
+
+        /* footer */
+
+        .footer-content {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* .footer-section.links.right {
+            display: flex;
+            justify-content: space-between;
+        } */
+    
+        .footer-section {
+            max-width: 100%;
+            text-align: center;
+        }
+    
+        .footer-section:not(:last-child) {
+            margin-bottom: 40px;
+        }
+        
+    }
 }
