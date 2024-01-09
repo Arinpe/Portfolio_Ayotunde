@@ -771,7 +771,7 @@ h3 {
 
     .contact-form form {
        align-items: center;
-       padding-left: 7rem;
+       /* padding-left: 7rem; */
     }
 
     .contact-form button {
