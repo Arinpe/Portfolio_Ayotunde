@@ -912,7 +912,8 @@ h3 {
     .about_details {
         max-width: 600px;
         margin-top: 20px;
-        text-align: center;
+        /* text-align: center; */
+        padding-right: 100px;
     }
 
     .about_details span {
