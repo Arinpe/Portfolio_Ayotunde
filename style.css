@@ -771,11 +771,12 @@ h3 {
 
     .contact-form form {
        align-items: center;
-       padding-left: 5rem;
+       padding-left: 7rem;
+
     }
 
     .contact-form button {
-        width: 30%; 
+        width: 50%; 
         background-color: #0DBF81;
         color: white;
         padding: 10px;
@@ -784,7 +785,7 @@ h3 {
         border-radius: 3px;
         cursor: pointer;
         margin-top: 10px; 
-        margin-left: 4rem;
+        margin-left: 2rem;
     }
 
     /* Footer */
