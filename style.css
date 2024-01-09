@@ -366,16 +366,16 @@ h3 {
     font-style: normal;
     font-weight: 900;
     line-height: normal;
-    text-align: center; /* Center the heading on smaller screens */
+    text-align: center; 
 }
 
 .contact-form {
     max-width: 600px;
-    margin: 0 auto; /* Center the form on the page */
+    margin: 0 auto; 
 }
 
 .contact-form form {
-    text-align: left;
+    align-items: center;
 }
 
 .contact-form label {
@@ -392,19 +392,20 @@ h3 {
     border-radius: 5px;
     background: #0B0D21;
     color: #fff;
-    border: 1px solid #0DBF81; /* Add border for better visibility */
+    border: 1px solid #0DBF81;
 }
 
 .contact-form button {
-    width: 100%; /* Make the button full width on smaller screens */
+    width: 30%; 
     background-color: #0DBF81;
     color: white;
     padding: 10px 20px;
     font-size: 1.2em;
     border: none;
-    border-radius: 5px;
+    border-radius: 3px;
     cursor: pointer;
-    margin-top: 10px; /* Add spacing between the form and the button */
+    margin-top: 10px; 
+    margin-left: 12rem;
 }
 
 /* footer */
@@ -1043,9 +1044,33 @@ h3 {
         margin: 20px auto;
     }
 
+    /* contact */
+
     .contact-form input,
     .contact-form textarea {
-        width: calc(100% - 20px);
+        width: 15rem;
+    }
+
+    #contact h2 {
+        font-size: 30px;
+    }
+
+    .contact-form form {
+       align-items: center;
+       padding-left: 7rem;
+    }
+
+    .contact-form button {
+        width: 30%; 
+        background-color: #0DBF81;
+        color: white;
+        padding: 10px 20px;
+        font-size: 15px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        margin-top: 10px; 
+        margin-left: 4rem;
     }
 
     /* Footer */
