@@ -771,14 +771,14 @@ h3 {
 
     .contact-form form {
        align-items: center;
-       padding-left: 7rem;
+       padding-left: 5rem;
     }
 
     .contact-form button {
         width: 30%; 
         background-color: #0DBF81;
         color: white;
-        padding: 10px 20px;
+        padding: 10px;
         font-size: 15px;
         border: none;
         border-radius: 3px;
