@@ -2,7 +2,6 @@ body {
     font-family: Nunito;
     margin: 0;
     padding: 0;
-    /* opacity: 0.24; */
     background: #090B1A;
     color: #fff;
 }
@@ -128,10 +127,6 @@ body {
 
 /* about */
 
-    /* #about {
-        padding: 50px;
-    } */
-
 #about h2 {
     padding-left: 40rem;
     
@@ -248,8 +243,6 @@ body {
 }
 
 .skill {
-    /* margin-bottom: 20px; */
-    /* text-align: center; */
     margin: 0 auto;
 }
 
@@ -270,13 +263,6 @@ body {
 }
 
 /* portfolio */
-
-
-/* #portfolio {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-} */
 
 #portfolio h2 {
     color: #232230;
@@ -321,7 +307,6 @@ h3 {
     background-color: #0DBF81;
     border-radius: 5px;
     transition: background-color 0.3s ease;
-    /* margin-top: 2rem; */
     margin: 0 auto;
     margin-top: 5rem;
 }
@@ -489,45 +474,9 @@ h3 {
     .quick_links,
     .services_links,
     .contacts_footer {
-        max-width: 100%; /* Adjust to take full width on smaller screens */
+        max-width: 100%; 
         margin-bottom: 20px;
     }
-}
-
-
-/* .footer-section {
-    flex: 1;
-    max-width: 300px;
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-.right {
-    display: flex;
-    justify-content: space-between;
-    align-content: space-between;
-}
-
-.footer-section h2 {
-    margin-bottom: 10px;
-}
-
-.footer-section ul {
-    list-style: none;
-    padding: 0;
-}
-
-.footer-section a {
-    color: #fff;
-    text-decoration: none;
-    display: block;
-    margin-bottom: 8px;
-}
-
-.footer-section a:hover {
-    color: #0DBF81;
-} */
-
 
 .footer-bottom {
     text-align: center;
@@ -554,242 +503,8 @@ h3 {
 .btn-big {
     padding: 15px 30px;
 }
-
-/* responsiveness */
-/* @media (max-width: 768px) {
-@media only screen and (max-width: 768px) {
-    @media screen and (max-width: 768px) {
-        .nav-links {
-            display: none; 
-            flex-direction: column;
-            position: absolute;
-            top: 70px;
-            left: 0;
-            background-color: #0B0D21;
-            width: 100%;
-        }
-    
-        .nav-links.active {
-            display: flex; 
-            flex-direction: column;
-        }
-    
-        .hamburger-menu {
-            display: block;
-        }
-    } */
-
-
-    /* hero section */
-
-    /* .hero {
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .hero-content {
-        max-width: 800px;
-        margin: 0 auto;
-    }
-    
-    .hero_img img {
-        width: 100%; 
-        max-width: 500px;
-    }
-    
-    .hero_text {
-        padding: 4rem 0;
-    }
-    
-    .social-links {
-        padding-top: 2rem;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .social-links a {
-        margin: 0 1rem; 
-
-    #about {
-        text-align: center;
-        padding: 50px 0;
-    }
-
-    #about h2{
-        padding-left: 0;
-        text-align: center;
-    }
-    
-    .about-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .about_img img {
-        width: 100%;
-        max-width: 300px; 
-    } */
-/*     
-    .about_details {
-        max-width: 600px;
-        margin-top: 20px;
-    }
-    
-    .about_details span {
-        color: #0DBF81;
-        font-size: 20px;
-        display: block;
-        margin-bottom: 10px;
-    }
-    
-    .about_details p {
-        font-size: 16px;
-        margin-bottom: 20px;
-    }
-    
-    .about_details ul {
-        text-align: left;
-        padding-left: 0;
-        list-style: none;
-        margin-bottom: 20px;
-    }
-    
-    .about_details li {
-        margin-bottom: 8px;
-    }
-    
-    .cta-button {
-        display: inline-block;
-        padding: 10px 20px;
-        font-size: 15px;
-        text-decoration: none;
-        color: #fff;
-        background-color: #0DBF81;
-        border-radius: 5px;
-        transition: background-color 0.3s ease;
-    }
-    
-    .cta-button:hover {
-        background-color: #0DBF81;
-    } */
-
-    /* services session */
-
-    /* @media (max-width: 992px) {
-        .services-content {
-            flex-wrap: wrap;
-        }
-    
-        .service_design,
-        .service_ux,
-        .service_graphics {
-            width: 48%; 
-            margin-bottom: 20px;
-        }
-    } */
-    
-    /* @media (max-width: 768px) {
-        .service_design,
-        .service_ux,
-        .service_graphics {
-            width: 100%;
-        }
-    } */
-    
-    /* skills */
-/* 
-    @media (max-width: 768px) {
-        #skills h2 {
-            padding-left: 0;
-            text-align: center;
-
-        }
-    
-        .skill-name {
-            text-align: left;
-            padding-left: 1px;
-            font-size: 20px;
-        }
-    } */
-
-    /* portfolio */
-
-    /* @media (max-width: 768px) {
-        #portfolio h2 {
-            color: #232230;
-            font-family: Nunito;
-            font-size: 62px;
-            font-style: normal;
-            font-weight: 900;
-            line-height: normal;
-            text-align: center; 
-            padding-left: 0; 
-        }
-        
-        #portfolio img {
-            width: 100%; 
-            max-width: 100%;
-            height: auto;
-        }
-        
-        .project {
-            display: flex;
-            flex-direction: column; 
-            align-items: center; 
-            margin: 0 auto; 
-        }
-        
-        .project_details {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center; 
-        }
-        
-        .project p,
-        h3 {
-            padding-top: 10px; 
-        }
-        
-        .all {
-            display: block;
-            margin: 20px auto; 
-        }
-
-            .contact-form input,
-            .contact-form textarea {
-                width: calc(100% - 20px); 
-        } */
-
-
-        /* footer */
-
-        /* .footer-content {
-            flex-direction: column;
-            align-items: center;
-        }
-
-       
-    
-        .footer-section {
-            max-width: 100%;
-            text-align: center;
-        }
-    
-        .footer-section:not(:last-child) {
-            margin-bottom: 40px;
-        }
-        
-    }
 }
-} */
-
-/* Common styles for larger screens */
-
-/* ... (existing styles) ... */
+/* responsiveness */
 
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {
@@ -913,7 +628,6 @@ h3 {
     .about_details {
         max-width: 600px;
         margin-top: 20px;
-        /* text-align: center; */
         padding-right: 100px;
     }
 
