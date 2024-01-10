@@ -782,7 +782,7 @@ h3 {
 
     .contact-form input,
     .contact-form textarea {
-        width: 15rem;
+        width: 100%;
     }
 
     #contact h2 {
