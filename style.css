@@ -703,7 +703,7 @@ h3 {
         }
     }
 
-    @media (max-width: 768px) {
+    @media screen and (max-width: 768px) {
 
         .service_design,
         .service_ux,
@@ -717,6 +717,11 @@ h3 {
         }
     }
 
+        /* @media screen and (max-width: 480px) {
+            .contact-form form {
+                padding-left: 1rem;
+            }
+        } */
     /* Skills Section */
     #skills h2 {
         padding-left: 0;
@@ -786,13 +791,12 @@ h3 {
 
     .contact-form form {
         align-items: center;
-        padding-left: 7rem;
-
+        padding-left: 0;
     }
 
     .contact-form {
-    max-width: 500px;
-    margin: 0 auto;
+    max-width: 80%;
+    margin: auto;
 }
 
     .contact-form button {
