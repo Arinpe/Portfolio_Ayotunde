@@ -15,7 +15,7 @@ body {
     padding: 20px;
 }
 
-.logo-container img{
+.logo-container img {
     height: 35px;
     padding-left: 55px;
 }
@@ -34,7 +34,7 @@ body {
 }
 
 .hamburger-menu {
-    display: none; 
+    display: none;
     cursor: pointer;
 }
 
@@ -49,7 +49,7 @@ body {
     list-style-type: none;
     display: flex;
     margin: 0;
-    
+
 }
 
 .nav-links li {
@@ -69,7 +69,7 @@ body {
 
 /* hero page */
 
- .hero {
+.hero {
     color: #fff;
     display: flex;
 }
@@ -82,18 +82,18 @@ body {
 
 .hero_text {
     padding: 4rem 0;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 .hero h1 {
     font-size: 3em;
     margin-bottom: 20px;
     color: #0DBF81;
-    
+
 }
 
-.social-links{
-    padding-top: 2rem;    
+.social-links {
+    padding-top: 2rem;
 }
 
 .hero span {
@@ -122,14 +122,14 @@ body {
 
 .cta-button:hover {
     background-color: #0DBF81;
-    
-} 
+
+}
 
 /* about */
 
 #about h2 {
     padding-left: 40rem;
-    
+
 }
 
 #about span {
@@ -145,7 +145,7 @@ body {
 }
 
 .about_details {
-    padding-left: 5rem; 
+    padding-left: 5rem;
     line-height: 2rem;
 }
 
@@ -229,7 +229,7 @@ body {
 
 #skills {
     padding: 60px;
-    
+
 }
 
 #skills h2 {
@@ -351,12 +351,12 @@ h3 {
     font-style: normal;
     font-weight: 900;
     line-height: normal;
-    text-align: center; 
+    text-align: center;
 }
 
 .contact-form {
     max-width: 600px;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 /* .contact-form form {
@@ -381,7 +381,7 @@ h3 {
 }
 
 .contact-form button {
-    width: 30%; 
+    width: 30%;
     background-color: #0DBF81;
     color: white;
     padding: 10px 20px;
@@ -389,7 +389,7 @@ h3 {
     border: none;
     border-radius: 3px;
     cursor: pointer;
-    margin-top: 10px; 
+    margin-top: 10px;
     margin-left: 12rem;
 }
 
@@ -461,7 +461,7 @@ h3 {
 .contacts_footer p {
     font-size: 1em;
     line-height: 1.6;
-    margin-top: 10px; 
+    margin-top: 10px;
 }
 
 /* Responsive adjustments */
@@ -474,43 +474,45 @@ h3 {
     .quick_links,
     .services_links,
     .contacts_footer {
-        max-width: 100%; 
+        max-width: 100%;
         margin-bottom: 20px;
     }
 
-.footer-bottom {
-    text-align: center;
-    padding-top: 20px;
-    border-top: 1px solid #888;
+    .footer-bottom {
+        text-align: center;
+        padding-top: 20px;
+        border-top: 1px solid #888;
+    }
+
+    .text-input {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        background-color: #0DBF81;
+        color: #090B1A;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .btn-big {
+        padding: 15px 30px;
+    }
 }
 
-.text-input {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    box-sizing: border-box;
-}
-
-.btn {
-    padding: 10px 20px;
-    background-color: #0DBF81;
-    color: #090B1A;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.btn-big {
-    padding: 15px 30px;
-}
-}
 /* responsiveness */
 
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {
+
     /* Navbar */
     .nav-links {
-        display: none; 
+        display: none;
         flex-direction: column;
         position: absolute;
         top: 70px;
@@ -520,7 +522,7 @@ h3 {
     }
 
     .nav-links.active {
-        display: flex; 
+        display: flex;
         flex-direction: column;
     }
 
@@ -535,11 +537,11 @@ h3 {
         margin: 0;
         flex-direction: column;
     }
-    
+
     .nav-links li {
         margin-right: 1rem;
     }
-    
+
     .nav-links a {
         text-decoration: none;
         color: #fff;
@@ -608,7 +610,7 @@ h3 {
         padding: 50px 0;
     }
 
-    #about h2{
+    #about h2 {
         padding-left: 0;
         text-align: center;
         font-size: 30px;
@@ -690,6 +692,7 @@ h3 {
     }
 
     @media (max-width: 768px) {
+
         .service_design,
         .service_ux,
         .service_graphics {
@@ -770,13 +773,13 @@ h3 {
     }
 
     .contact-form form {
-       align-items: center;
-       padding-left: 50px;
+        align-items: center;
+        padding-left: 7rem;
 
     }
 
     .contact-form button {
-        width: 50%; 
+        width: 50%;
         background-color: #0DBF81;
         color: white;
         padding: 10px;
@@ -784,8 +787,8 @@ h3 {
         border: none;
         border-radius: 3px;
         cursor: pointer;
-        margin-top: 10px; 
-        margin-left: 1.5rem;
+        margin-top: 10px;
+        margin-left: 2rem;
     }
 
     /* Footer */
