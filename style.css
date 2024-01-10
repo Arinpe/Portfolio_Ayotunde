@@ -355,9 +355,14 @@ h3 {
 }
 
 .contact-form {
-    max-width: 600px;
+    max-width: 500px;
     margin: 0 auto;
 }
+
+/* #contact {
+    margin: 0 auto;
+    width: 500px;
+} */
 
 /* .contact-form form {
     align-items: center;
@@ -370,7 +375,7 @@ h3 {
 
 .contact-form input,
 .contact-form textarea {
-    width: 100%;
+    width: 80%;
     padding: 10px;
     margin-bottom: 15px;
     box-sizing: border-box;
@@ -390,7 +395,7 @@ h3 {
     border-radius: 3px;
     cursor: pointer;
     margin-top: 10px;
-    margin-left: 12rem;
+    margin-left: 11rem;
 }
 
 /* footer */
@@ -463,6 +468,13 @@ h3 {
     line-height: 1.6;
     margin-top: 10px;
 }
+
+  .footer-bottom {
+        text-align: center;
+        padding-top: 20px;
+        border-top: 1px solid #888;
+    }
+
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
@@ -777,6 +789,11 @@ h3 {
         padding-left: 7rem;
 
     }
+
+    .contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
 
     .contact-form button {
         width: 50%;
