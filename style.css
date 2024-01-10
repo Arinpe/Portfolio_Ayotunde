@@ -771,7 +771,7 @@ h3 {
 
     .contact-form form {
        align-items: center;
-       padding-left: 7rem;
+       padding-left: 50px;
 
     }
 
@@ -785,7 +785,7 @@ h3 {
         border-radius: 3px;
         cursor: pointer;
         margin-top: 10px; 
-        margin-left: 2rem;
+        margin-left: 1,5rem;
     }
 
     /* Footer */
