@@ -1,5 +1,5 @@
 body {
-    font-family: Nunito;
+    font-family: Inter;
     margin: 0;
     padding: 0;
     background: #090B1A;
@@ -274,6 +274,12 @@ body {
     padding-left: 30rem
 }
 
+/* .project_1,
+.project_2,
+.project_3 {
+    padding-left: 5rem;
+} */
+
 #portfolio img {
     width: 257px;
     height: 234px;
@@ -291,6 +297,7 @@ body {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+
 }
 
 .project p,
@@ -759,6 +766,7 @@ h3 {
         align-items: center;
         margin: 0 auto;
         max-width: 800px;
+        padding-left: 7rem;
     }
 
     .project_details {
