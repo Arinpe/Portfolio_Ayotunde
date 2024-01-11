@@ -401,8 +401,7 @@ h3 {
     border: none;
     border-radius: 3px;
     cursor: pointer;
-    margin-top: 10px;
-    margin-left: 11rem;
+    margin: 10px auto;
 }
 
 /* footer */
