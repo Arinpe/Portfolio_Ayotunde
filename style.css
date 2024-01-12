@@ -666,7 +666,7 @@ h3 {
     }
 
     .about_details ul {
-        padding-left: 0;
+        /* padding-left: 0; */
         /* list-style: none; */
         margin-bottom: 20px;
     }
